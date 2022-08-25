@@ -30,7 +30,8 @@ p {
     position: center;
     width: 900px;
     height: 900px;
-
+    background-color: rgb(246, 242, 238);
+    border-radius:22px;
     margin-left: 15%;
     margin-top: -10px;
 }
@@ -42,7 +43,7 @@ p {
 #image {
     position: fixed;
     top: 2%;
-    left: 15%;
+    left: 18%;
 }
 
 #title {
@@ -50,7 +51,7 @@ p {
     height: 40px;
     position: fixed;
     top: 40%;
-    left: 29%;
+    left: 27%;
     margin-left: -20px;
     margin-top: -100px;
 }
@@ -104,4 +105,15 @@ li:hover {
 /* Este es el estilo al seleccionar el boton*/
 .select {
     background: linear-gradient(white, rgb(205, 125, 55));
+}
+
+#responsive {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(218, 215, 212);
+    position: fixed;
+    top: 133%;
+    left: 25%;
+    margin-left: 10px;
+    margin-top: -300px;
+
 }
