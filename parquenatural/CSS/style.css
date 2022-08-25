@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(21, 167, 43, 0.895);
+}
+
+#parque {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(16, 110, 30, 0.895);
+}
+
+#sierra {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(210, 165, 67, 0.895);
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(210, 165, 67, 0.895);
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#all {
+    position: center;
+    width: 900px;
+    height: 900px;
+
+    margin-left: 15%;
+    margin-top: -10px;
+}
+
+#window {
+    display: flex;
+}
+
+#image {
+    position: fixed;
+    top: 2%;
+    left: 15%;
+}
+
+#title {
+    width: 500px;
+    height: 40px;
+    position: fixed;
+    top: 40%;
+    left: 29%;
+    margin-left: -20px;
+    margin-top: -100px;
+}
+
+#text {
+    width: 700px;
+    height: 40px;
+    position: fixed;
+    top: 80%;
+    left: 24%;
+    margin-left: 10px;
+    margin-top: -300px;
+}
+
+#color {
+    background: linear-gradient(to bottom, rgb(240, 240, 239), white 50%, rgb(240, 240, 239));
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#index {
+    position: fixed;
+    width: 10%;
+    top: 20%;
+    left: 14%;
+    margin-top: 110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    margin: 5%;
+    text-align: center;
+    background-color: rgb(205, 119, 44);
+    background: linear-gradient(white, rgba(175, 223, 86, 0.747));
+    border-width: 1px;
+    border-style: solid;
+    list-style: none;
+}
+
+/* Este es el estilo al poner el cursor encima del boton*/
+li:hover {
+    background-color: rgb(205, 119, 44);
+    background: linear-gradient(rgb(205, 119, 44), rgba(175, 223, 86, 0.747));
+}
+
+/* Este es el estilo al seleccionar el boton*/
+.select {
+    background: linear-gradient(white, rgb(205, 125, 55));
+}
